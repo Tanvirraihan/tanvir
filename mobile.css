@@ -1,0 +1,85 @@
+*{box-sizing: border-box;
+}
+body{margin 0;
+
+font-family: 'Fira Sans', sans-serif;
+}
+
+h1{ font-size: 2.5rem;
+    text-align: center;}
+a{ color: white;  
+font-size: 1.2rem;
+text-decoration: none;
+
+}
+
+[class*="col-*"]{float:left;
+padding:10px;}
+
+/*for  mobile*/
+[class*="col-*"]{float:left;
+width: 100%;
+
+
+}
+
+
+.navbar{ 
+background-color: teal;
+
+padding-bottom: 10px;
+text-align: center;
+}
+.navbar h1 {color:white;
+margin:0;
+padding: top 10px;
+}
+
+.nav-menu{    
+display:flex;
+flex-direction: column;
+
+
+   } 
+.nav-menu a{background-color:lightseagreen;
+border-radius: 10px;
+margin:7px;
+padding: 10px;}
+
+.nav-menu a:hover{
+
+background-color: gray;
+}
+
+.profilepic{ border-radius: 50%;
+border: 5px solid turquoise;                
+}
+.laptop{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+   transition:transform 3s;
+}
+.laptop:hover{ transform:rotate(360deg);
+}
+.p{font-size: 16rem; 
+ text-align:justify;
+font-family: 'Satisfy', cursive;
+}
+.profile{  padding:130px 10px;
+          position: relative;
+text-align:center;
+.web{ display: block;
+  margin-left: auto;
+  margin-right: auto;
+transition:transform 3s;
+}
+.web:hover{ transform:rotate(360deg);
+.profileinfo h1{font-family: 'Satisfy', cursive;}
+
+.navbar::after{
+content:'';
+display:table;
+clear:both;
+}
+.aboutme{background-color: teal;
+}
